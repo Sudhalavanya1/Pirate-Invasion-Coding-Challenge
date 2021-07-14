@@ -16,7 +16,7 @@ class Tower {
     translate(pos.x, pos.y);
     rotate(angle);
     imageMode(CENTER);
-    image(this.ballImage, 0, 0, this.width, this.height);
+    image(this.towerImage, 0, 0, this.width, this.height);
     pop();
   }
 }
